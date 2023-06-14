@@ -36,3 +36,6 @@ A feedback loop is implemented within the platform to learn from detected threat
 
 ## Conclusion
 SentinelFusion showcases expertise in cybersecurity, networks, data analysis, machine learning, scripting, and building scalable platforms. It provides a comprehensive solution for proactive threat hunting, with the ability to detect and respond to advanced threats.
+
+## SentinelFusion Flow Diagram
+![SentinelFusion Flow Diagram](https://github.com/yaron4u/SentinelFusion/assets/67191566/098d5741-5aa3-46b1-b7db-304a1da7f376)
