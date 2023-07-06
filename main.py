@@ -4,6 +4,7 @@ import db_manager
 import threat_detection
 import soar_integration
 import report_generator
+import client_info
 
 
 def main():
@@ -11,6 +12,10 @@ def main():
 
     # Start network monitor
     threat_detection.start_network_monitor()
+
+    # clint_info gets client ip address
+    client_ip_address = client_info.get_ip_address()
+    # print(client_ip_address)
 
     # Get all incidents from the database
     print("Getting all incidents...")
