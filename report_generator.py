@@ -6,7 +6,7 @@ import db_manager
 def generate_pdf_report(incidents):
     # Function to generate a PDF report
     print("Incidents: ", incidents)
-    c = canvas.Canvas("C:/C Program/SentinelFusion/report.pdf")
+    c = canvas.Canvas("./report.pdf")
 
     c.setFont("Helvetica", 24)
     c.drawString(100, 800, "Incident Report")
